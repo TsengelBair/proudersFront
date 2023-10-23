@@ -1,0 +1,68 @@
+@import "./normalize.css";
+.container {
+  max-width: 920px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__img {
+  padding-top: 40px;
+}
+
+.auth {
+  padding-top: 160px;
+}
+
+.auth__title {
+  padding-bottom: 40px;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__group input {
+  width: 96%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #999;
+}
+
+.form-group input::placeholder {
+  color: rgba(0, 0, 0, 0.5); /* Полупрозрачный текст */
+}
+
+.auth__btns {
+  display: flex;
+  padding-top: 50px;
+}
+
+.auth__btns-text {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.auth__btns-text-1 {
+  margin-right: 85px;
+}
+
+.auth__login-button {
+  background-color: #ff4b5f; /* Цвет фона кнопки (красный) */
+  color: #fff; /* Цвет текста кнопки (белый) */
+  padding: 50px 100px; /* Отступы 50px сверху и снизу, 100px слева и справа */
+  text-decoration: none;
+  border: none;
+  border-radius: 4px; /* Округление углов (по желанию) */
+  display: inline-block; /* Сделать кнопку блочным элементом */
+  text-align: center; /* Выравнивание текста по центру кнопки */
+}
+
+.registration-button {
+  color: #5a6e85; /* Цвет текста кнопки (серый) */
+  padding: 50px 100px; /* Отступы 50px сверху и снизу, 100px слева и справа */
+  text-decoration: none;
+  border: 1px solid #999; /* Серая обводка шириной 1px */
+  border-radius: 4px; /* Округление углов (по желанию) */
+  display: inline-block; /* Сделать кнопку блочным элементом */
+  text-align: center; /* Выравнивание текста по центру кнопки */
+}
